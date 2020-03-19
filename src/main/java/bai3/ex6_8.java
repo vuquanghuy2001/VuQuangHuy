@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 public class ex6_8 {
     public static void main(String[] args)
             throws FileNotFoundException {
-        Formatter out=new Formatter(new File("resources/in.txt"));
+        Formatter out=new Formatter(new File("in.txt"));
         int num1=1234;
         double num2=55.66;
         String name="Paul";

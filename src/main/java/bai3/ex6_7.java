@@ -8,7 +8,6 @@ public class ex6_7 {
         int num1;
         double num2;
         String name;
-        File f = new File("in.txt");
         try {
             Scanner in= new Scanner(new File("in.txt"));
         num1=in.nextInt();
