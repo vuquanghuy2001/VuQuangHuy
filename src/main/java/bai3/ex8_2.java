@@ -11,12 +11,15 @@ public class ex8_2 {
 
         for(int row=1;row<=size;row++){
             for(int col=1;col<=size;col++){
-                System.out.print("* ");
+                System.out.print(" * ");
+
+                if((row%2)==1){
+                    System.out.print(" ");
+                }
             }
-            if ((row % 2)==0){
-                System.out.println(" ");
+            System.out.println();
         }
         in.close();
     }
-    }
 }
+
