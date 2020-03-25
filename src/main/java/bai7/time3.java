@@ -17,7 +17,7 @@ public class time3 {
         if (minute >= 0 && minute < 59) {
             this.minute = minute;
         } else {
-            throw new IllegalArgumentException("Invaild second!");
+            throw new IllegalArgumentException("Invaild minute!");
         }
     }
 
@@ -26,7 +26,7 @@ public class time3 {
         if (hour >= 0 && hour < 23) {
             this.hour = hour;
         } else {
-            throw new IllegalArgumentException("Invaild second!");
+            throw new IllegalArgumentException("Invaild hour!");
         }
     }
 
