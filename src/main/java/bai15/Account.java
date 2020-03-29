@@ -30,7 +30,8 @@
 //        return "name="+ID+"balance="+balance+".";
 //    }
 //    public double deposit(double balance){
-//        return getBalance();
+//        this.balance+=amount;
+//        return this;
 //    }
 //    public Account Withdraw(double amount){
 //        if (balance>=amount){
@@ -39,6 +40,6 @@
 //        else {
 //            System.out.println("amount withdraw exceeds the current balance!");
 //        }
-//        return withdraw();
+//        return this;
 //    }
 //}
